@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1">paragraphe 1</p>
+    Nom:<input type="text" id="nom">
+    <button onclick="changeText()">click to change text</button>
+    <br>
+    <script>
+        document.write(3+5);
+    </script>
+</body>
+<script>
+    document.getElementById("p1").innerHTML ="i am a dom text";
+    function changeText()
+    {
+        x=document.getElementById("nom").value;
+
+        console.log("la valeur saisit est: ",x);
+        //alert("you clicked the button");
+        document.getElementById("p1").innerHTML ="Bienvenu "+x;
+    }
+   
+</script>
+</html>
