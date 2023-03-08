@@ -20,5 +20,5 @@ function imc() {
   message += `<div class="alert alert-warning" role="alert">
   vous êtes en surpoid;
 </div>`
-document.getElementById("res").innerHTML=message;
+document.getElementById("res").innerHTML=message;   
 }
